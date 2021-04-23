@@ -1,0 +1,29 @@
+.container{
+    width: 50%;
+}
+
+body{
+    background-image: url("img/default.jpg");
+    display: grid;
+}
+
+.card {
+    background-color: #d2d3d6;
+    border-radius: 20px;
+    color: #4d5261;
+    font-family: 'Marcellus', serif
+}
+
+#weatherContainer{
+    display: none;
+}
+
+.temp {
+    place-items: center
+}
+
+.temp-details>p>span,
+.grey {
+    color: #4d5261;
+    font-size: 16px
+}
