@@ -12,7 +12,7 @@
        }
 
        let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?${searchMethod}=${inputSearch}&appid=${apiKey}&units=${units}`);
-       let data = await response.json();
+       let data = await response.json();    // convert the response into json
        getWeather(data);
        console.log(data);
        //console.log(data.weather[0].main);
